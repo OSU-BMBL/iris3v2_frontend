@@ -1,5 +1,5 @@
 <template>
-  <v-row align="center" class="mt-12 mx-6">
+  <v-row align="center" class="mt-12">
     <v-col
       cols="5"
       offset="1"
@@ -158,7 +158,7 @@
           ><v-card elevation="1">
             <v-carousel
               cycle
-              height="12em"
+              height="13em"
               hide-delimiter-background
               show-arrows-on-hover
             >
@@ -190,7 +190,7 @@
           <v-card elevation="1">
             <client-only>
               <div
-                style="overflow-y: auto; height: 12em"
+                style="overflow-y: auto; height: 13em"
                 class="viewer_options"
               >
                 <script

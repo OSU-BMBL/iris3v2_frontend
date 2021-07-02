@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'DeepMAPS-frontend',
+      name: 'iris3v2-frontend',
       script: './node_modules/nuxt-start/bin/nuxt-start.js',
       port: 9004,
       watch: '.',

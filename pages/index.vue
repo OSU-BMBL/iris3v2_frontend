@@ -6,11 +6,12 @@
       class="d-flex flex-column justify-start align-left"
     >
       <p class="text-h2 black--text font-weight-bold text-no-wrap">
-        Welcome to DeepMAPS
+        Welcome to IRIS3 v2
       </p>
 
       <p class="text-h6 font-weight-medium mt-6">
-        Deep learning based Multi-omics Analysis Portal for Single cells
+        Integrated Cell-type-specific Regulon Inference Server from Single-cell
+        RNA-Seq
       </p>
       <v-spacer />
       <v-row class="my-6">
@@ -62,7 +63,7 @@
                 class="body-1 font-weight-regular"
               >
                 <p>
-                  Browse our gallery of showcase datasets to see DeepMAPS
+                  Browse our gallery of showcase datasets to see IRIS3
                   functions.
                 </p>
               </v-card-text>
@@ -99,7 +100,7 @@
                 style="overflow-y: auto; height: 12em"
                 class="body-1 font-weight-regular"
               >
-                <p>Access all public datasets collected in DeepMAPS.</p>
+                <p>Access all public datasets collected in IRIS3.</p>
               </v-card-text>
               <v-card-actions class="mx-2">
                 <v-spacer /><a class="text-decoration-none" href="projects"
@@ -224,8 +225,8 @@ export default {
   },
   computed: {
     bannerMessage() {
-      const ver = this.$store.getters.appVersion
-      return `DeepMAPS v${ver} is currently under development. Please let us know if there are any bugs, issues, or suggestions via qin.ma@osumc.edu.`
+      // const ver = this.$store.getters.appVersion
+      return `IRIS3 v2 is currently under development. Please let us know if there are any bugs, issues, or suggestions via qin.ma@osumc.edu.`
     },
     currentDate() {
       const date = new Date()
@@ -244,13 +245,13 @@ export default {
   },
   head() {
     return {
-      title: 'DeepMAPS',
+      title: 'IRIS3',
       meta: [
         {
-          hid: 'DeepMAPS',
-          name: 'DeepMAPS',
+          hid: 'IRIS3',
+          name: 'IRIS3',
           content:
-            'Deep learning based Multi-omics Analysis Portal for Single cells',
+            'Integrated Cell-type-specific Regulon Inference Server from Single-cell RNA-Seq',
         },
       ],
     }

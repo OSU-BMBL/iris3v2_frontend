@@ -23,7 +23,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    titleTemplate: 'DeepMAPS',
+    titleTemplate: 'IRIS3',
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -53,7 +53,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-components
    */
   router: {
-    base: '/deepmaps',
+    base: '/iris3_v2',
     linkActiveClass: 'active-link',
   },
   /*

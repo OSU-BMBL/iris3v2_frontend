@@ -4,7 +4,7 @@
       <!-- logo image -->
       <v-toolbar-title>
         <router-link to="/" tag="span" style="cursor: pointer">
-          <span class="title">DeepMAPS</span>
+          <span class="title">IRIS3 v2</span>
         </router-link>
       </v-toolbar-title>
 
@@ -152,7 +152,7 @@
     >
       <v-container fluid>
         <span>
-          DeepMAPS (v{{ $store.getters.appVersion }}) is developed by
+          IRIS3 v2 (beta v {{ $store.getters.appVersion }}) is developed by
           <a class="text-decoration-none" href="https://u.osu.edu/bmbl/">BMBL</a
           >, it is free and open to all users. | {{ new Date().getFullYear() }}
         </span>
@@ -263,7 +263,7 @@ export default {
           url: 'https://twitter.com/QinMaBMBL',
         },
       ],
-      title: 'DeepMAPS',
+      title: 'IRIS3',
     }
   },
   computed: {

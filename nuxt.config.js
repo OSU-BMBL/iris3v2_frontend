@@ -53,7 +53,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-components
    */
   router: {
-    base: '/iris3_v2',
+    base: '/iris3v2',
     linkActiveClass: 'active-link',
   },
   /*
